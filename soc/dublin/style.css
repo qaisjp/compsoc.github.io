@@ -1,0 +1,77 @@
+body
+ { 
+ background-image:url('bck.jpg');
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ background-size: 100%;
+ margin: 0;
+ padding: 0; 
+ }
+
+@font-face {
+	font-family: bebas;
+	src: url('BEBAS.ttf');
+}
+
+h1 {
+font-family: bebas;
+font-size:60px;
+margin: 0;
+padding: 0;
+font-color:white;
+}
+
+h2 {
+font-family: bebas;
+font-size:medium;
+margin: 0;
+padding: 0;
+font-color:white;
+}
+
+h3 {
+font-family: bebas;
+font-size:medium;
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 0px;
+font-color:white;
+}
+
+p {
+ font-family:"helvetica";
+ font-size: 12px;
+ margin: 0px;
+ padding-top: 0px;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-bottom: 20px;
+ text-align:justify;
+ font-color:white;
+}
+
+.top{
+opacity: 0.7;
+background-color: grey;
+height: 100px;
+width:100%;
+}
+
+
+.box{
+opacity: 0.85;
+width:400px;
+background-color:white;
+position:relative;
+top:20px;
+left:40%;
+ -moz-border-radius-bottomright: 10px;
+ border-bottom-right-radius: 10px;
+ -moz-border-radius-bottomright: 10px;
+ border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+ border-top-right-radius: 10px;
+ -moz-border-radius-bottomright: 10px;
+ border-top-left-radius: 10px;
+}
+
