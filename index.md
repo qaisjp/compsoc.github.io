@@ -37,7 +37,7 @@ The 2016 GTMU is currently being planned - join us on IRC to find out more!
 
 **See [the GTMU pages](gtmu) for details.**
 
-Known Societies
+Known UK Societies
 ---------------
 
 These societies have been seen in the channel:
@@ -46,6 +46,12 @@ These societies have been seen in the channel:
 {% for society in socs %}
  - [{{ society.title }}]({{ society.url }})
 {% endfor %}
+
+Other Known Societies
+---------------------
+
+This page was [originally home](soc/dublin) to the "former-former Computing Society from IT-Tallaght, Dublin, Ireland".
+
 
 Future plans
 ------------
@@ -57,7 +63,7 @@ events will be listed here.
 This Website
 ------------
 
-If you'd like to improve this website, it is hosted on GitHub pages,
+If you'd like to improve this website, it is hosted on GitHub Pages,
 in the repository
 [Compsocs/compsocs.github.io](http://github.com/CompSocs/compsocs.github.io). Send
 a pull request, and ping `barrucadu` (among others) in the channel if
